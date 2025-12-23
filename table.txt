@@ -1,0 +1,154 @@
+shared.Quco = {
+    ['Key'] = {
+        ['Silent'] = 'Q',
+        ['Trigger Bot'] = 'T',
+        ['Walk Speed'] = 'V',
+        ['Aim Bot'] = 'C',
+    },
+    ['Target Mode'] = {
+        ['Mode'] = 'Target',
+    },
+    ['Checks'] = {
+        ['Grabbed'] = true,
+        ['Knocked'] = true,
+        ['Wall Check'] = true,
+    },
+    ['Target Settings'] = {
+        ['Enabled'] = true,
+        ['Visible'] = true,
+        ['Target Color'] = Color3.fromRGB(255, 0, 0),
+        ['Color'] = Color3.fromRGB(255, 255, 255),
+    },
+    ['Whitelisted'] = {
+        ['Modifications'] = {
+            ['Client-Redirection'] = {
+                ['Enabled'] = false,
+                ['[Double-Barrel SG]'] = true,
+                ['[Revolver]'] = true,
+                ['[TacticalShotgun]'] = true,
+            },
+            ['Speed-Modification'] = {
+                ['Enabled'] = true,
+            },
+            ['Damage Overrider'] = {
+                ['[Double-Barrel]'] = true,
+                ['[Revolver]'] = true,
+                ['[TacticalShotgun]'] = true
+            },
+            ['Delay-Modification'] = {
+                ['[Double-Barrel SG]'] = true,
+                ['[Revolver]'] = true,
+                ['[TacticalShotgun]'] = true,
+            },
+            ['Spread-Modification'] = {
+                ['[Double-Barrel SG]'] = true,
+                ['[TacticalShotgun]'] = true,
+            },
+        },
+    },
+    ['Feature'] = {
+        ['Aimbot Assist'] = {
+            ['Enabled'] = true,
+            ['Smoothness'] = 0,
+            ['Hit Part'] = 'HumanoidRootPart',
+            ['Closest Point'] = {
+                ['Scale'] = 15,
+            },
+            ['Prediction'] = {
+                ['X'] = 0.1,
+                ['Y'] = 0.1,
+                ['Z'] = 0.1,
+            },
+        },
+        ['Silent'] = {
+            ['Enabled'] = true,
+            ['Hit Part'] = 'Closest Part',
+            ['Nearest Point'] = {
+                ['Enabled'] = true,
+                ['Visible'] = false,
+                ['Scale'] = 15,
+            },
+            ['Prediction'] = {
+                ['X'] = 0.1,
+                ['Y'] = 0.1,
+                ['Z'] = 0.1,
+            },
+        },
+        ['Trigger Bot'] = {
+            ['Enabled'] = true,
+            ['Hit Part'] = 'HumanoidRootPart',
+            ['Delay'] = 0,
+            ['Prediction'] = {
+                ['X'] = 0.1,
+                ['Y'] = 0.1,
+                ['Z'] = 0.1,
+            },
+            ['Closest Point'] = {
+                ['Scale'] = 15,
+            },
+        },
+        ['Walk Speed'] = {
+            ['Enabled'] = true,
+            ['Speed'] = 400,
+        },
+    },
+    ['Box'] = {
+        ['Mode'] = {
+            ['Trigger Bot'] = '2D',
+            ['Silent'] = '2D',
+            ['Aimbot Assist'] = '2D',
+        },
+        ['FOV'] = {
+            ['Silent'] = {
+                ['X'] = 50,
+                ['Y'] = 50,
+                ['Z'] = 50,
+            },
+            ['Trigger Bot'] = {
+                ['X'] = 50,
+                ['Y'] = 50,
+                ['Z'] = 50,
+            },
+            ['Aimbot Assist'] = {
+                ['X'] = 50,
+                ['Y'] = 50,
+                ['Z'] = 50,
+            },
+            ['Visuals'] = {
+                ['Enabled'] = true,
+                ['Whitelisted'] = {
+                    ['Silent'] = true,
+                    ['Trigger Bot'] = true,
+                    ['Aimbot'] = true
+                }
+            }
+        },
+    },
+    ['Modifications'] = {
+        ['Spread Modification'] = {
+            ['[Double-Barrel SG]'] = {
+                ['Multiplier'] = 1
+            },
+            ['[TacticalShotgun]'] = {
+                ['Multiplier'] = 1
+            },
+            ['DrumShotGun'] = {
+                ['Multiplier'] = 1,
+            }
+        },
+        ['Delay Modification'] = {
+            ['Enabled'] = true,
+            ['[Double-Barrel SG]'] = 0.085,
+            ['[Revolver]'] = 0.085,
+            ['[TacticalShotgun]'] = 0.085
+        },
+    },
+    ['Visuals'] = {
+        ['ESP'] = {
+            ['Enabled'] = true,
+            ['Color'] = Color3.fromRGB(255, 255, 255),
+            ['Size'] = 4,
+            ['Names'] = "Display",
+        },
+    },
+}
